@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  pull_request:
+  
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: event
+        run: echo "Hello World"
