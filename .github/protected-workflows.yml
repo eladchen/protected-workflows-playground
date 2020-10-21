@@ -5,10 +5,10 @@ events:
         disallowed:
           - ".github/**"
           - ".github/protected-workflows.yml"
+          
     - trustedUserNames:
-        - "aaa"
-        - "bbb"
-        - "ccc"
+        - "eladchen"
+        - "qinsoon"
   
   pull_request_target: *config
   push: *config
